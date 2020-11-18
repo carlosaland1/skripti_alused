@@ -13,8 +13,7 @@ num2="$n2dalad"
 tehe1=`expr $num1 \* 26`
 echo -n "$n2dalad nädala peale on ajakulu "
 echo -n $tehe1
-echo " tundi."
-echo " "
+echo " tundi, kui 1 ainepunkt on 26 tundi."
 tehe2=`expr $tehe1 / $num2`
 tehe2_aeg=`echo "scale=1;$tehe1/$num2" | bc`
 tehe2_aeg_ymarda="`echo "($tehe2_aeg+0.9)/1" | bc`"
