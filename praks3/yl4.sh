@@ -7,12 +7,13 @@ read reisijad
 echo -n "Mitu kohta on bussis?:"
 read kohad
 
-buss=$(expr $reisijad / $kohad)
+buss="$(expr $reisijad / $kohad)"
+maha="$(expr $reisijad - $kohad)"
+yle="$(expr $kohad - $reisijad)"
 
-if [ $kohad -gt $reisijad ]; then
- j22k=$(expr $kohad - $reisijad) 
- echo "Täielikult on täidetud $buss bussi ja üle jääb $j22k kohta."
+if [ $kohad -gt $reisijad ];
+then
+ echo "Täielikult on täidetud $buss bussi ja üle jääb $yle kohta."
 else
- maha=$(expr $reisijad % $kohad)
- echo "Täielikult on täidetud $bussi bussi ja maha jääb $maha inimest."
+ echo "Täielikult on täidetud $buss bussi ja maha jääb $maha inimest."
 fi
