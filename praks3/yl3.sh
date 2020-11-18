@@ -1,10 +1,11 @@
-#!/bin/bash
 #
-# nädala eeldatav ajakulu
+# nädalas eeldatav ajakulu
 # autor - Carlos Aland
 #
-echo -n "Siestage  ainepunktide arv: "
+echo -n "Siestage ainepunktide arv:"
 read ainepunktid
-echo "Siesestage nädalate arv: "
-read nädalate_arv
-echo "Ainepunktid on $ainepunktid ja nädalate arv on $nädalate_arv"
+
+echo -n "Sisestage nädalate arv:"
+read n2dalad
+
+echo "Ainepunkte on $ainepunktid ja nädalaid on $n2dalad"
