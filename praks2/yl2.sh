@@ -1,7 +1,8 @@
 #!/bin/bash
-date
-echo "Hello $USER"
-echo "Hostname $(hostname)"
-echo "Working in $PWD"
-echo "Here is this month's calendar"
+#
+# tänane kuupäev ning kalender
+# autor - Carlos Aland
+#
+echo -n "Today is "
+echo $(date)
 cal
