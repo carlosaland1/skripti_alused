@@ -8,7 +8,7 @@ echo -n "Mitu kohta on bussis?:"
 read kohad
 
 buss="$(expr $reisijad / $kohad)"
-maha="$(expr $reisijad - $kohad)"
+maha="$(expr $reisijad % $kohad)"
 yle="$(expr $kohad - $reisijad)"
 
 if [ $kohad -gt $reisijad ];
