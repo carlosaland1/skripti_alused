@@ -3,7 +3,7 @@
 # kuu numbrile tuleb vastav kuu nimetus
 # autor - Carlos Aland
 #
-echo "Sisesta kuu number: "
+echo -n "Sisesta kuu number: "
 read number
 case $number in
    "1") echo "Jaanuar";;
@@ -18,6 +18,6 @@ case $number in
    "10") echo "Oktoober";;
    "11") echo "November";;
    "12") echo "Detsember";;
-   *) echo "Sorry, I can not get a $rental for you";;
+   *) echo "Vabandust, aga sellist kuud ei ole, #ERROR404";;
 esac
 
