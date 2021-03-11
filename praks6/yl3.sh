@@ -18,6 +18,6 @@ case $number in
    "10") echo "Oktoober";;
    "11") echo "November";;
    "12") echo "Detsember";;
-   *) echo "Vabandust, aga sellist kuud ei ole, #ERROR404";;
+   *) echo "ERORR, sellist kuud ei ole";;
 esac
 
