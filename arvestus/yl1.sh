@@ -9,4 +9,3 @@ echo -n "Täna on "
 echo $(date +"%x")
 echo -n "Kell on "
 echo $(date +%H:%M)
-echo " "
