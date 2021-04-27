@@ -1,5 +1,5 @@
 #/bin/bash
-#väljastab kujundi, enda valitud arvudega
+#väljastab kujundi enda valitud arvudega test
 #autor - Carlos Aland
 
 echo -n "Sisesta ridade arv:"
